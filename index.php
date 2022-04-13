@@ -5,6 +5,9 @@
 	if(!isset($_SESSION["username"])) {
         header("Location: ./src/registration/login.php");
         exit();
+    }else{
+        header("Location: ./src/dashboard.php");
+        exit();
     }
 ?>
 <!DOCTYPE html>
@@ -12,5 +15,6 @@
 	<head>
 	</head>
 	<body>
+
 	</body>
 </html>

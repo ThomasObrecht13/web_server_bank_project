@@ -22,7 +22,7 @@
                     $_SESSION['id'] = $row["id"];
                     $_SESSION['username'] = $row["username"];
                     echo "id: " . $row["id"]. " - Name: " . $row["username"]."<br>";
-                    header("Location: ../accueil.php");
+                    header("Location: ../dashboard.php");
                                     }
             } else {
                 $message = "Le nom d'utilisateur ou le mot de passe est incorrect.";
